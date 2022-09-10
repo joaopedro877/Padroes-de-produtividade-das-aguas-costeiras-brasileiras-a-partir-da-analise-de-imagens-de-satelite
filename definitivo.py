@@ -7,6 +7,10 @@ Created on Sun Sep  4 16:32:42 2022
 
 '''script definitivo dos resultados do trabalho'''
 
+''' Dados de clorofila-a, temperatura da supeficie do mar e radiacao fotossinteticamente ativa entre janeiro de 2003 e dezembro de 2021, foram obtidos do MODIS.
+Dados mensais, com resolucao temporal de 4km. 
+Os dados estao disponiveis em formato netCDF em https://oceancolor.gsfc.nasa.gov/.'''
+
 
 '''verificando a porcentagem de dados disponíveis para cada pixel'''
 import numpy as np
